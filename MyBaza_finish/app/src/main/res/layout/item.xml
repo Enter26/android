@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:background="#7e90f8">
+      <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Brand"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:background="@drawable/item_background"
+            android:text="Marka" />
+        android:
+
+        <TextView
+            android:id="@+id/Model"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:layout_column="1"
+            android:background="@drawable/item_background"
+            android:text="Model" />
+    </TableRow>
+</TableLayout>
